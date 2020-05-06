@@ -35,10 +35,9 @@ def main():
                         type=str,
                         required=True)
     args = parser.parse_args()
-    key_word = "flocking sheep top view"
-    get_youtube_videos(key_word, 5)
-    frame_folder = args.frames_folder
-    get_video(frame_folder)
+    key_word = args.key_word
+    count = args.count
+    get_youtube_videos(key_word, count)
 
 if __name__ == "__main__":
     main()
