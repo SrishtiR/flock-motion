@@ -1,7 +1,7 @@
 youtube-dl==2020.3.24
 scenedetect==0.5.1.1
 scipy==1.1.0
-numpy==1.15.4
+numpy==1.22.0
 imageio==2.3.0
 opencv-python==4.2.0.34
 opencv-contrib-python==4.2.0.34
